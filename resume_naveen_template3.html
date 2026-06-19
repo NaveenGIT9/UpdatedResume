@@ -6,8 +6,13 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Georgia', 'Times New Roman', serif; font-size: 10pt; color: #1a1a1a; background: #fff; }
-  @page { margin: 12mm 16mm 12mm 16mm; size: A4; }
-  @media print { body { font-size: 9.5pt; } .container { padding: 0; } }
+  @page { margin: 12mm 16mm; size: 210mm 724mm; }
+  @media print {
+    body { font-size: 9.5pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .container { padding: 0; }
+    .header-banner { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .client-bar { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
 
   .container { max-width: 820px; margin: 0 auto; padding: 0; }
 

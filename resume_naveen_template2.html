@@ -6,10 +6,16 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Calibri', Arial, sans-serif; font-size: 10pt; color: #1a1a1a; background: #fff; }
-  @page { margin: 10mm 10mm 10mm 0; size: A4; }
-  @media print { body { font-size: 9.5pt; } }
+  @page { margin: 0; size: 210mm 664mm; }
+  .print-header { display: none !important; }
 
-  .wrapper { display: flex; min-height: 100vh; }
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .sidebar { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .client-bar { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  .wrapper { display: flex; min-height: 664mm; }
 
   /* ── SIDEBAR ── */
   .sidebar {
@@ -76,6 +82,18 @@
 </style>
 </head>
 <body>
+<!-- Print-only header (hidden on screen, shown when printing) -->
+<div class="print-header">
+  <h1>SRI RAMA NAVEEN BONTHU</h1>
+  <div class="ph-tag">Senior DevOps Engineer &nbsp;·&nbsp; Salesforce DevOps &amp; CI/CD Specialist &nbsp;·&nbsp; Copado Certified Consultant</div>
+  <div class="ph-contact">
+    <span>Amalapuram, India 533201</span>
+    <span>+91 8897131936</span>
+    <span>sriramnavin131@gmail.com</span>
+    <span><a href="https://www.linkedin.com/in/sriramnaveen/">linkedin.com/in/sriramnaveen</a></span>
+  </div>
+</div>
+
 <div class="wrapper">
 
   <!-- ══ SIDEBAR ══ -->

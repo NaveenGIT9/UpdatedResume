@@ -7,10 +7,11 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Calibri', 'Arial', sans-serif; font-size: 10.5pt; color: #1a1a1a; background: #fff; }
 
-  @page { margin: 14mm 16mm 14mm 16mm; size: A4; }
+  @page { margin: 14mm 16mm; size: 210mm 834mm; }
   @media print {
-    body { font-size: 10pt; }
+    body { font-size: 10pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
     .container { padding: 0; }
+    .client-meta { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   }
 
   .container { max-width: 820px; margin: 0 auto; padding: 28px 38px; }
