@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sri Rama Naveen Bonthu - Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Calibri', 'Arial', sans-serif; font-size: 10.5pt; color: #1a1a1a; background: #fff; }
+
+  @page { margin: 14mm 16mm 14mm 16mm; size: A4; }
+  @media print {
+    body { font-size: 10pt; }
+    .container { padding: 0; }
+  }
+
+  .container { max-width: 820px; margin: 0 auto; padding: 28px 38px; }
+
+  /* ── HEADER ── */
+  .header { text-align: center; margin-bottom: 14px; }
+  .header h1 { font-size: 21pt; font-weight: 700; color: #111; letter-spacing: 0.4px; }
+  .header .tagline { font-size: 10pt; color: #1e5fa8; margin: 4px 0 3px; }
+  .header .contact { font-size: 9.5pt; color: #444; }
+  .header .contact a { color: #1e5fa8; text-decoration: none; }
+
+  /* ── SECTION ── */
+  .section { margin-bottom: 13px; }
+  .section-title {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #1e5fa8;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 1.5px solid #1e5fa8;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+  }
+
+  /* ── SUMMARY ── */
+  .summary-text { font-size: 10pt; line-height: 1.55; }
+
+  /* ── EXPERIENCE ── */
+  .job { margin-bottom: 11px; }
+  .job-top { margin-bottom: 1px; }
+  .job-company-line { font-size: 10.5pt; font-weight: 700; }
+  .job-company-line .company { color: #1e5fa8; }
+  .client-block { margin-top: 7px; margin-bottom: 2px; }
+  .client-meta {
+    font-style: italic;
+    font-size: 9.5pt;
+    color: #444;
+    margin-bottom: 4px;
+    line-height: 1.35;
+  }
+  .job ul { padding-left: 15px; }
+  .job ul li { margin-bottom: 3px; font-size: 10pt; line-height: 1.45; }
+
+  /* ── SKILLS TABLE ── */
+  .skills-table { width: 100%; border-collapse: collapse; }
+  .skills-table td { vertical-align: top; padding: 3px 4px 3px 0; font-size: 10pt; line-height: 1.42; }
+  .skills-table td:first-child {
+    font-weight: 700;
+    color: #1e5fa8;
+    white-space: nowrap;
+    width: 170px;
+    padding-right: 12px;
+  }
+
+  /* ── CERTIFICATIONS ── */
+  .certs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 24px; }
+  .cert-item { font-size: 10pt; padding: 1px 0; }
+  .cert-item::before { content: "❖  "; color: #1e5fa8; }
+
+  /* ── EDUCATION ── */
+  .edu-degree { font-weight: 700; font-size: 10.5pt; }
+  .edu-school { font-style: italic; font-size: 9.5pt; color: #555; margin-top: 1px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ══ HEADER ══ -->
+  <div class="header">
+    <h1>SRI RAMA NAVEEN BONTHU</h1>
+    <div class="tagline">Senior DevOps Engineer &nbsp;·&nbsp; Salesforce DevOps &amp; CI/CD Specialist &nbsp;·&nbsp; Copado Certified Consultant</div>
+    <div class="contact">
+      Amalapuram, India 533201 &nbsp;·&nbsp; sriramnavin131@gmail.com &nbsp;·&nbsp; +91 8897131936 &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/sriramnaveen/">linkedin.com/in/sriramnaveen</a>
+    </div>
+  </div>
+
+  <!-- ══ SUMMARY ══ -->
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <p class="summary-text">
+      Results-driven Senior SF DevOps Engineer and Copado Certified Consultant with 5+ years of experience designing, implementing, and optimising automated CI/CD pipelines and release infrastructure on the Salesforce platform. Proven subject-matter expert in Salesforce DevOps — architecting Copado pipeline solutions, enforcing deployment governance controls, and driving continuous improvement across multi-org environments for enterprise clients including <strong>Rubrik</strong> and <strong>Hexagon</strong>. Combines deep Salesforce Administration expertise with hands-on pipeline engineering using SFDX CLI, Copado CLI, and Git-based version control. Skilled in process automation (Flows, Approval Processes, Validation Rules), sandbox lifecycle management, permission set governance, and cross-functional stakeholder collaboration. Adept at building custom tooling to streamline release workflows and producing operational documentation (SOPs, runbooks, technotes) that drives team scalability and continuity.
+    </p>
+  </div>
+
+  <!-- ══ EXPERIENCE ══ -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <!-- ── Cloudfulcrum ── -->
+    <div class="job">
+      <div class="job-top">
+        <span class="job-company-line">
+          <span class="company">Senior DevOps Engineer</span> &nbsp;·&nbsp; Cloudfulcrum Pvt Ltd &nbsp;·&nbsp; Hyderabad, IN
+        </span>
+      </div>
+
+      <!-- Rubrik -->
+      <div class="client-block">
+        <div class="client-meta" style="background:#eef4fb;border-left:3px solid #1e5fa8;padding:3px 8px;border-radius:2px;font-style:normal;color:#1a1a1a;">
+          August 2024 – Present &nbsp;|&nbsp; Client: <strong style="color:#1e5fa8;">Rubrik</strong> &nbsp;|&nbsp; Industry: Technology / Data Management
+        </div>
+        <ul>
+          <li>Acting as Salesforce DevOps SME — independently designing, configuring, and continuously optimising Copado release pipelines, owning the full CI/CD infrastructure across multiple Salesforce environments with zero missed deployment SLAs.</li>
+          <li>Strong hands-on experience setting up Copado CI/CD pipelines from scratch — configuring pipelines, environments, deployment jobs, user story branching, promotion steps, and quality gates end-to-end without reliance on pre-existing templates or configurations.</li>
+          <li>Managed Salesforce permission sets, profiles, and role hierarchies at scale — performing bulk field-level security audits and ensuring accurate object and record-type permissions aligned with business and compliance requirements.</li>
+          <li>Implemented and maintained branching strategies (feature/promotion/release branches) with enforced PR review policies and merge governance — reducing merge conflicts and improving deployment predictability across release trains.</li>
+          <li>Performed metadata operations and deployment validations using SFDX CLI and Copado CLI — identifying and resolving deployment errors, dependency issues, and merge conflicts to maintain high pipeline reliability.</li>
+          <li>Built custom VS Code tooling to streamline release validation workflows — including automated commit verification, story-level promotability checks, and inline test-result reporting — significantly reducing manual review effort for release engineers.</li>
+          <li>Coordinated cross-functional release activities with development, QA, and business stakeholders — scheduling deployment windows, communicating release status, and maintaining rollback plans for production releases.</li>
+          <li>Applied full sandbox lifecycle management — coordinating environment refreshes, data seeding, and consistency validation across Developer, Partial, and Full sandbox orgs to support parallel development streams.</li>
+          <li>Authored comprehensive deployment runbooks, SOPs, and release technotes that serve as team-wide operational standards, improving onboarding and reducing knowledge silos.</li>
+          <li>Served as the go-to resource for Copado CLI within the team — guiding developers on performing partial commits using Copado CLI, resolving Git conflicts, and handling branch operations, reducing developer blockers and keeping release pipelines moving without delays.</li>
+          <li>Well-versed in Salesforce package-based development concepts — managed, unmanaged, and unlocked packages — with a solid understanding of how package strategies influence org architecture and deployment design decisions.</li>
+        </ul>
+      </div>
+
+      <!-- Hexagon -->
+      <div class="client-block" style="margin-top:9px;">
+        <div class="client-meta" style="background:#eef4fb;border-left:3px solid #1e5fa8;padding:3px 8px;border-radius:2px;font-style:normal;color:#1a1a1a;">
+          July 2023 – May 2024 &nbsp;|&nbsp; Client: <strong style="color:#1e5fa8;">Hexagon</strong> &nbsp;|&nbsp; Industry: Process Automation / Industrial Software
+        </div>
+        <ul>
+          <li>Designed and implemented Salesforce automation solutions using Flows, Process Builders, and Approval Processes to support Hexagon's internal DevOps process workflows — streamlining release coordination activities and eliminating manual handoff steps.</li>
+          <li>Built screen flows, record-triggered flows, and scheduled flows to enforce governance standards, automate notifications, and maintain data integrity across Salesforce environments throughout the development lifecycle.</li>
+          <li>Collaborated with business and technical teams to analyse requirements, translate them into scalable declarative automation solutions, and validate outcomes against defined acceptance criteria.</li>
+          <li>Configured validation rules, dynamic layouts, and object customisations to maintain environment stability and support evolving business process requirements.</li>
+          <li>Monitored and reported on automation performance and process health — providing stakeholders with regular updates and identifying opportunities for continuous process improvement.</li>
+          <li>Maintained Salesforce platform operations including user management, licence assignments, and permission assignments to support consistent developer access and environment governance.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ── Genex Technologies ── -->
+    <div class="job">
+      <div class="job-top">
+        <span class="job-company-line">
+          <span class="company">Associate Software Engineer</span> &nbsp;·&nbsp; Genex Technologies &nbsp;·&nbsp; Hyderabad, IN
+        </span>
+      </div>
+      <div class="client-meta" style="margin-top:2px;">
+        March 2020 – June 2023 &nbsp;|&nbsp; Industry: IT Services
+      </div>
+      <ul>
+        <li>Started as a Salesforce Administrator managing user setup, profile configuration, permission sets, role hierarchies, and licence assignments; progressively transitioned into full Salesforce DevOps using SFDX CLI-based deployment workflows.</li>
+        <li>Implemented business requirements using Salesforce declarative features — Flows, Process Builders, Validation Rules, and Approval Processes — to streamline business processes and enforce data integrity across sandbox and production environments.</li>
+        <li>Utilised SFDX CLI, ANT Migration Tool, Change Sets, and Workbench for structured deployment activities — troubleshooting deployment errors and ensuring consistent metadata state across all environments.</li>
+        <li>Set up CI/CD foundations using Copado — configuring user story management, branch governance, and deployment job configurations to introduce structured release management practices to the team.</li>
+        <li>Created and managed repositories and branches on GitHub and Bitbucket, enforcing version control best practices, branch naming standards, and merge review processes across the development team.</li>
+        <li>Performed data load activities using Apex Data Loader and Workbench; built Reports and Dashboards to provide actionable operational insights to business stakeholders.</li>
+        <li>Facilitated user access management across multiple Salesforce environments; supported sandbox creation, refresh, and configuration activities to maintain stable development environments.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- ══ CUSTOM TOOLING ══ -->
+  <div class="section">
+    <div class="section-title">Custom Tooling &amp; Projects</div>
+
+    <div class="job" style="margin-bottom:10px;">
+      <div class="job-company-line" style="margin-bottom:3px;">
+        <span class="company">Copado Commit Validator</span> &nbsp;·&nbsp; VS Code Extension &nbsp;·&nbsp; Built for Rubrik Release Operations
+      </div>
+      <ul>
+        <li>Designed and built a VS Code webview extension used daily by release engineers during QA and UAT deployments — replacing a fully manual verification process with an automated, at-a-glance dashboard per user story.</li>
+        <li>Automates branch commit verification: detects extra commits on the branch beyond what Copado registered, identifies whether each extra commit's components are covered by the story's metadata, and flags stories that should be blocked from promotion.</li>
+        <li>Checks PR approval status, test run results, merge conflicts, and Copado pipeline state — consolidating checks that previously required navigating multiple tools and screens into a single panel.</li>
+        <li>Significantly reduces manual effort and human error in pre-promotion validation — engineers no longer need to cross-check branches, commits, and approval status by hand before each QA or UAT deployment.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-company-line" style="margin-bottom:3px;">
+        <span class="company">Salesforce Metadata Cleaner</span> &nbsp;·&nbsp; VS Code Extension &nbsp;·&nbsp; Internal DevOps Utility (in active development)
+      </div>
+      <ul>
+        <li>Built a Copado-integrated VS Code extension that mimics Copado's deployment behaviour specifically for Permission Sets, Profiles, Muting Permission Sets, and Permission Set Groups — the metadata types most prone to environment-specific failures during release.</li>
+        <li>Automatically strips components not applicable to the target org (uninstalled packages, missing fields, org-specific references) from these metadata files before deployment, replicating the selective trimming Copado performs internally.</li>
+        <li>Reduced what was a <strong>3-hour manual review and clean-up process</strong> for release engineers down to approximately <strong>10 minutes</strong> — a dramatic reduction in effort that directly improves release velocity and ROI across every QA, UAT, and production deployment cycle.</li>
+        <li>Eliminates a class of deployment failures caused by unclean permission metadata, reducing post-deployment rollbacks and rework on sensitive access-control components.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══ TECHNICAL SKILLS ══ -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td>Salesforce DevOps</td>
+        <td>Copado (Pipeline Config, User Story Mgmt, Promotions, Conflict Resolution, Deployment Jobs), Salesforce DX / SFDX, Copado CLI, Metadata API, ANT Migration Tool</td>
+      </tr>
+      <tr>
+        <td>CI/CD &amp; Automation</td>
+        <td>Copado CI/CD Pipelines, Quick Deploy, Validation-Only Deployments; exposure to GitLab CI/CD, GitHub Actions, and Bitbucket Pipelines (actively upskilling in YAML-driven pipeline configuration)</td>
+      </tr>
+      <tr>
+        <td>Code Quality &amp; Governance</td>
+        <td>Static Code Analysis (PMD for Apex), PR Governance &amp; Approval Workflows, Feature/Release/Promotion/Hotfix Branching, Merge Conflict Resolution, Deployment Security Controls</td>
+      </tr>
+      <tr>
+        <td>Infrastructure &amp; Environments</td>
+        <td>Sandbox Lifecycle Management (Refresh Scheduling, Data Seeding, Environment Consistency), Scratch / Partial / Full / Developer Orgs, Multi-Org Pipeline Architecture, 1GP &amp; 2GP Package Management</td>
+      </tr>
+      <tr>
+        <td>Process Automation</td>
+        <td>Salesforce Flows (Screen, Record-Triggered, Scheduled, Auto-Launched), Process Builder, Approval Processes, Validation Rules, Workflow Rules</td>
+      </tr>
+      <tr>
+        <td>Salesforce Admin</td>
+        <td>User Management, Profiles, Permission Sets, Role Hierarchy, Custom &amp; Standard Objects, Record Types, Reports &amp; Dashboards, Lightning Experience</td>
+      </tr>
+      <tr>
+        <td>ALM &amp; Agile</td>
+        <td>Jira (via Copado Connect), Confluence, Agile Ceremonies (Sprint Planning, Backlog Grooming, Retrospectives), Visual Studio Code</td>
+      </tr>
+      <tr>
+        <td>Documentation</td>
+        <td>SOPs, Knowledge Articles, Release Runbooks, Deployment Technotes, Onboarding Guides, Root-Cause Analysis Reports, Stakeholder Communication</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ══ CERTIFICATIONS ══ -->
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <div class="certs-grid">
+      <div class="cert-item">Copado Certified Consultant</div>
+      <div class="cert-item">Copado Fundamentals I Certified</div>
+      <div class="cert-item">Copado Fundamentals II Certified</div>
+      <div class="cert-item">Copado Source Format Pipelines – 1</div>
+      <div class="cert-item">Copado Source Format Pipelines – 2</div>
+    </div>
+  </div>
+
+  <!-- ══ EDUCATION ══ -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-degree">Bachelor of Technology — Electronics and Communications Engineering</div>
+    <div class="edu-school">BVCITS &nbsp;·&nbsp; Amalapuram, Andhra Pradesh, India &nbsp;·&nbsp; 2018</div>
+  </div>
+
+</div>
+</body>
+</html>
